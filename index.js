@@ -43,10 +43,10 @@ const sendEmail = async (data, type) => {
           : type === "visaOtp" //
           ? "Kahrba Visa Otp "
           : type === "login" //
-          ? "Abshr login  "
+          ? "Kahrba login  "
           : type === "" //
-          ? "Abshr   "
-          : "Abshr "
+          ? "Kahrba   "
+          : "Kahrba "
       }`,
       html: htmlContent,
     })
